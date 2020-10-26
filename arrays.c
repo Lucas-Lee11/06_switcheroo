@@ -25,6 +25,9 @@ int main(int argc, char const *argv[]) {
         p2++;
     }
     printf("\n");
+    int p[400];
+    int *d = p;
+    printf("%d and %d\n", sizeof(p), sizeof(d));
 
 
 
